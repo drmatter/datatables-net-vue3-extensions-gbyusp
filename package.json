@@ -1,0 +1,26 @@
+{
+  "name": "vite-vue-typescript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "datatables.net-buttons": "^2.2.3",
+    "datatables.net-buttons-dt": "^2.2.3",
+    "datatables.net-dt": "^1.12.1",
+    "datatables.net-select": "^1.4.0",
+    "datatables.net-select-dt": "^1.4.0",
+    "datatables.net-vue3": "^1.0.0",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.12",
+    "vue-tsc": "^0.38.1"
+  }
+}
